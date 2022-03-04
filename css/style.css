@@ -450,8 +450,16 @@ h1,h2,h3,h4,h5,h6{
         margin-left: 26px;
         margin-top: 22px;
     }
+    .footer {
+        background-color: #ecf2fb;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+    }
     .name_slide_info {
-        padding-top: 20px;
+        padding-top: 15px;
         font-size: 12px;
         font-family: 'Raleway',sans-serif;
         font-weight: 900;
@@ -636,10 +644,18 @@ h1,h2,h3,h4,h5,h6{
     }
     .name_slide_info {
         padding-top: 15px;
-        font-size: 12px;
+        font-size: 10px;
         font-family: 'Raleway',sans-serif;
         font-weight: 900;
         width: 131px;
+    }
+    .new {
+        background-color: #5A00A0;
+        height: 20px;
+        margin-left: -26px;
+        width: 49px;
+        margin-top: 14px;
+        border-radius: 20px;
     }
 }
 
